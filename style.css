@@ -1,0 +1,87 @@
+/* Gaya untuk body dan header */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Warna latar belakang tema gelap */
+    color: #fff; /* Warna teks putih */
+}
+
+header {
+    background-color: #333; /* Warna latar belakang header yang lebih gelap */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Gaya untuk judul */
+h1 {
+    margin: 0;
+    color: #fff; /* Warna teks judul putih */
+    font-size: 36px; /* Ukuran font judul */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Efek bayangan teks */
+}
+
+/* Gaya untuk navigasi */
+nav {
+    background-color: #444; /* Warna latar belakang navigasi yang lebih gelap */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Gaya untuk bagian konten */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #292929; /* Warna latar belakang konten yang lebih gelap */
+    border-radius: 8px; /* Sudut elemen konten yang lebih lembut */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Efek bayangan lebih tebal */
+}
+
+/* Gaya untuk proyek */
+.project {
+    background-color: #333; /* Warna latar belakang proyek yang lebih gelap */
+    border: 1px solid #555; /* Garis pinggiran yang lebih gelap */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Sudut elemen proyek yang lebih lembut */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan lembut */
+}
+
+/* Gaya untuk tautan navigasi */
+nav a {
+    color: #fff; /* Warna tautan navigasi putih */
+    text-decoration: none;
+    font-size: 18px; /* Ukuran font tautan navigasi */
+    transition: color 0.3s; /* Transisi perubahan warna tautan */
+}
+
+nav a:hover {
+    color: #ff6600; /* Warna tautan saat dihover */
+}
+
+/* Gaya untuk tautan kontak */
+.contact-link {
+    color: #fff; /* Warna tautan kontak putih */
+    text-decoration: none;
+    transition: color 0.3s; /* Transisi perubahan warna tautan */
+}
+
+.contact-link:hover {
+    color: #00a4e4; /* Warna tautan saat dihover (biru muda) */
+}
+
+section.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}

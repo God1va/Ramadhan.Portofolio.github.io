@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Ramadhan</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script>
+        function navigateTo(page) {
+            const content = document.querySelector('section');
+            content.classList.add('fade-out');
+    
+            setTimeout(function() {
+                window.location.href = page;
+            }, 500); // Setelah 0.5 detik, alihkan ke halaman yang dipilih
+    
+        }
+    </script><!-- Ganti "style.css" dengan nama file CSS Anda -->
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="navigateTo('Portofolio.html')">Beranda</a></li>
+                <li><a href="javascript:void(0);" onclick="navigateTo('proyek.html')">Proyek</a></li>
+                <li><a href="javascript:void(0);" onclick="navigateTo('kontak.html')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Kontak Saya</h2>
+        <p>Jika Anda ingin menghubungi saya, silakan gunakan salah satu metode berikut:</p>
+        <ul>
+            <li>Email: <a href="mailto:ramadhanfurqon155@gmail.com" class="contact-link">ramadhanfurqon155@gmail.com</a></li>
+            <li>Telepon: <a href="tel:+6281221669451" class="contact-link">+6281221669451</a></li>
+            <li>Sosial Media:
+                <ul>
+                    <li><a href="https://www.instagram.com/madannih/?hl=id" class="contact-link">instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@madann_aja" class="contact-link">tiktok</a></li>
+                    <!-- Tambahkan tautan sosial media lainnya di sini -->
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

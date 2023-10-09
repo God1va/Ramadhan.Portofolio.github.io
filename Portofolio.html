@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ramadhan</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function navigateTo(page) {
+            const content = document.querySelector('section');
+            content.classList.add('fade-out');
+    
+            setTimeout(function() {
+                window.location.href = page;
+            }, 500); // Setelah 0.5 detik, alihkan ke halaman yang dipilih
+    
+        }
+    </script>
+<body>
+    <header>
+        <h1>Portofolio <br> Muhammad Ramadhan Nurul Furqon</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0);" onclick="navigateTo('Portofolio.html')">Beranda</a></li>
+            <li><a href="javascript:void(0);" onclick="navigateTo('proyek.html')">Proyek</a></li>
+            <li><a href="javascript:void(0);" onclick="navigateTo('kontak.html')">Kontak</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>Selamat datang di halaman portofolio saya. Saya adalah seorang pengembang web yang berpengalaman dalam membuat situs web kreatif dan responsif.</p>
+    </section>
+    <section>
+        <h2>Pengalaman</h2>
+        <div class="project">
+            <h3>OSIS SMP (2020 - 2022)</h3>
+            <H3>Pelatih Eskul E-sport di SMP (2022 - 2023)</H3>
+        </div>
+        <h2>Achievement</h2>
+        <div class="project">
+            <h3>Second Runner Up Igasar MLBB season 2 (HeadCoach) (2023)</h3>
+            <h3>Winner IPL season 2 (Player) (2023) </h3>
+        </div>
+    </section>
+  
+</body>
+</html>
+
+</body>
+</html>

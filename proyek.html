@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Ramadhan</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script>
+        function navigateTo(page) {
+            const content = document.querySelector('section');
+            content.classList.add('fade-out');
+    
+            setTimeout(function() {
+                window.location.href = page;
+            }, 500); // Setelah 0.5 detik, alihkan ke halaman yang dipilih
+    
+        }
+    </script><!-- Ganti "style.css" dengan nama file CSS Anda -->
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="navigateTo('Portofolio.html')">Beranda</a></li>
+                <li><a href="javascript:void(0);" onclick="navigateTo('proyek.html')">Proyek</a></li>
+                <li><a href="javascript:void(0);" onclick="navigateTo('kontak.html')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Proyek Saya</h2>
+        <div class="project">
+            <h3>Proyek Pertama</h3>
+            <p>Deskripsi proyek pertama saya.</p>
+        </div>
+        <div class="project">
+            <h3>Proyek Kedua</h3>
+            <p>Deskripsi proyek kedua saya.</p>
+        </div>
+        <!-- Tambahkan proyek-proyek lainnya di sini -->
+    </section>
+</body>
+</html>
